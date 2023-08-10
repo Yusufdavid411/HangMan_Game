@@ -5,7 +5,7 @@ function Game(){
 
     if(ans.length == 1 && ans.includes('y')){
         const won = document.querySelector('p')
-        console.log(won.innerText = 'You Won!')
+        console.log(won.innerText = 'You Won!&#128074;')
         const ansReturn = document.querySelector('h3')
         console.log(ansReturn.innerText = 'Timothy')
         won.style.color = 'green';
