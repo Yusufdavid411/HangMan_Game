@@ -1,0 +1,80 @@
+body{
+    border: 0;
+    padding: 0;
+    background-color: rgb(194, 153, 153);
+}
+
+h1 {
+    background-color: aliceblue;
+    padding: 10px 5px;
+    border: 10px 5px;
+    width: 80%;
+    margin: 5px auto 10px;
+}
+
+header {
+    text-align: center;
+    height: 100%;
+    width: 50%;
+    margin:  auto;
+    padding: 14% 0;
+    min-width: 200px;
+    max-width: 550px;
+    background-color: rgb(173, 71, 71);
+}
+
+input {
+    font-size: 15px;
+    padding: 5px 0px;
+    width: 30%;
+    margin: 10px auto;
+    border-radius: 12px;
+    font-weight: 25px;
+    text-align: center;
+    border-color: green;
+}
+
+b{
+    color: green;
+    border: 2px solid white;
+    padding: 0 1.5px;
+    border-radius: 5px;
+    text-shadow: 1px 1px rgb(221, 216, 216);
+}
+
+h4 {
+    width: 50%;
+    margin: 5px auto;
+    border: 4px solid rgb(230, 229, 224);
+    color: white;
+    padding: 5px;
+}
+h3 {
+    color: white;
+    width: 50px;
+    margin: 9px auto 3px;
+}
+button {
+    border-radius: 14px;
+    color: rgb(2, 70, 2);
+    background-color: rgb(248, 246, 246);
+    border: none;
+    font-size: 17px;
+    box-shadow: 1px 1px 2px 2px rgb(179, 196, 121);
+}
+p {
+    font-size: 20px;
+    font-weight: 100px;
+    font-family: fantasy;
+    text-shadow: 1px 1px white;
+    transition: 1s;
+}
+
+
+button:hover{
+    border-radius: 14px;
+    color: rgb(2, 70, 2);
+    border: none;
+    font-size: 19px;
+    text-shadow: 1px 1px white;
+}
