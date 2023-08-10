@@ -8,14 +8,12 @@ h1 {
     background-color: aliceblue;
     padding: 10px 5px;
     border: 10px 5px;
-    width: 100%;
     margin: 5px auto 10px;
 }
 
 header {
     text-align: center;
     height: 100%;
-    width: 100%;
     margin:  auto;
     padding: 14% 0;
     max-width: 400px;
