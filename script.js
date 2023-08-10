@@ -5,7 +5,7 @@ function Game(){
 
     if(ans.length == 1 && ans.includes('e')){
         const won = document.querySelector('p')
-        const mog = document.querySelector('b')
+        const mog = document.querySelector('i')
         console.log(won.innerText = 'You Won!')
         const ansReturn = document.querySelector('h3')
         console.log(ansReturn.innerText = 'Divine')
