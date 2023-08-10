@@ -3,11 +3,11 @@ function Game(){
 
     ans = userInput.value;
 
-    if(ans.length == 1 && ans.includes('k')){
+    if(ans.length == 1 && ans.includes('e')){
         const won = document.querySelector('p')
         console.log(won.innerText = 'You Won!')
         const ansReturn = document.querySelector('h3')
-        console.log(ansReturn.innerText = 'Neck')
+        console.log(ansReturn.innerText = 'Divine')
         won.style.color = 'green';
         ansReturn.style.borderStyle = 'solid';
         ansReturn.style.borderColor = 'white';
@@ -15,7 +15,7 @@ function Game(){
         const tryAgain = document.querySelector('p')
         console.log(tryAgain.innerText = 'Try Again?')
         const ansReturn = document.querySelector('h3')
-        console.log(ansReturn.innerText = 'Nec?')
+        console.log(ansReturn.innerText = 'Divin?')
         tryAgain.style.color = 'red';
         ansReturn.style.borderStyle = 'solid';
         ansReturn.style.borderColor = 'red';
